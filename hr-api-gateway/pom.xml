@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>ms-api-gateway</artifactId>
+	<artifactId>hr-api-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-api-gateway</name>
+	<name>hr-api-gateway</name>
 	<description>Spring Gateway Server</description>
 	<properties>
 		<java.version>17</java.version>

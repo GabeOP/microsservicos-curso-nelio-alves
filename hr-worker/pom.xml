@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>ms-worker</artifactId>
+	<artifactId>hr-worker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-worker</name>
+	<name>hr-worker</name>
 	<description>Worker Service - Java17</description>
 	<properties>
 		<java.version>17</java.version>
