@@ -12,9 +12,9 @@
 	</parent>
 
 	<groupId>com.devsuperior</groupId>
-	<artifactId>ms-user</artifactId>
+	<artifactId>hr-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-user</name>
+	<name>hr-user</name>
 	<description>User Service - Java17</description>
 
 	<properties>
