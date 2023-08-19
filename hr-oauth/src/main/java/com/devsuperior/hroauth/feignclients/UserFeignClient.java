@@ -1,16 +1,17 @@
-package com.gabriel.hroauth.feignclients;
+package com.devsuperior.hroauth.feignclients;
 
-import com.gabriel.hroauth.entities.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.devsuperior.hroauth.entities.User;
+
 @Component
 @FeignClient(name = "hr-user", path = "/users")
 public interface UserFeignClient {
 
-  @GetMapping(value = "/search")
-  ResponseEntity<User> findByEmail(@RequestParam String email);
+	@GetMapping(value = "/search")
+	ResponseEntity<User> findByEmail(@RequestParam String email);	
 }
