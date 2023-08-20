@@ -1,0 +1,582 @@
+{
+	"info": {
+		"_postman_id": "a7b138a6-30cf-4913-93df-d0dff079119c",
+		"name": "ms-course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24255848"
+	},
+	"item": [
+		{
+			"name": "Fase 1",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:57107/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "57107",
+									"path": [
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8001/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8101/payments/1/days/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8101",
+									"path": [
+										"payments",
+										"1",
+										"days",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fase 2",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-payroll/payments/2/days/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-payroll",
+										"payments",
+										"2",
+										"days",
+										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fase 3",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show worker configs",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/configs",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"configs"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Actuator refresh",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/actuator/refresh",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"actuator",
+										"refresh"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-payroll/payments/2/days/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-payroll",
+										"payments",
+										"2",
+										"days",
+										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-config-server",
+					"item": [
+						{
+							"name": "hr-worker configs default profile",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/default",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"default"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "hr-worker configs test profile",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/test",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"test"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fase 4",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show worker configs",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/configs",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"configs"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Actuator refresh",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/actuator/refresh",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"actuator",
+										"refresh"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-payroll/payments/2/days/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-payroll",
+										"payments",
+										"2",
+										"days",
+										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-config-server",
+					"item": [
+						{
+							"name": "hr-worker configs default profile",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/default",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"default"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "hr-worker configs test profile",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/test",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"test"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-user",
+					"item": [
+						{
+							"name": "User by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-user/users/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-user",
+										"users",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "User by email",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-user/users/search?email=leia@gmail.com",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-user",
+										"users",
+										"search"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "leia@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hr-oauth",
+					"item": [
+						{
+							"name": "User by email",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8765/hr-oauth/users/search?email=leia@gmail.com",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-oauth",
+										"users",
+										"search"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "leia@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
